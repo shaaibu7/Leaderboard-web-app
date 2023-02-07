@@ -1,0 +1,35 @@
+.main-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#form-area {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.btn {
+  width: 70px;
+}
+
+h1 {
+  margin-left: 90px;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  border: 2px solid black;
+  width: 100%;
+  padding-left: 3px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+ul :nth-child(even) {
+  background-color: lightgrey;
+}

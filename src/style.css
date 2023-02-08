@@ -33,3 +33,11 @@ ul {
 ul :nth-child(even) {
   background-color: lightgrey;
 }
+
+table {
+  border: 2px solid black;
+}
+
+tr:nth-child(even) {
+  background-color: lightblue;
+}

@@ -14,26 +14,24 @@
   <main>
     <section class="main-container">
       <section id="scores">
-        <p>Recent scores <button>Refresh</button></p>
+        <p>Recent scores <button class="refresh">Refresh</button></p>
         <section>
-          <ul>
-            <li>Name: 50</li>
-            <li>Name: 90</li>
-            <li>Name: 15</li>
-            <li>Name: 80</li>
-            <li>Name: 60</li>
-            <li>Name: 50</li>
-            <li>Name: 10</li>
-          </ul>
+          <table id="main-container">
+            <tr>
+              <th>Names</th>
+              <th>Scores</th>
+            </tr>
+          </table>
         </section>
       </section>
 
       <section id="form-section">
         <h2>Add your score</h2>
-        <form id="form-area">
+        <form id="form-area" method="GET">
           <input type="text" name="username" id="username" placeholder="Your name" required>
           <input type="text" name="userscore" id="userscore" placeholder="Your score" required>
           <button type="submit" class="btn">Submit</button>
+          <div class="alert"></div>
         </form>
       </section>
     </section>

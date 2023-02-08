@@ -27,7 +27,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 To Do List with Webpack <a name="about-project"></a>
+# 📖 LeaderBoard Web App <a name="about-project"></a>
 
 This project consumes the Leaderboard api and renders the data on the user interface.
 
@@ -65,7 +65,7 @@ A Browser
 
 Clone this repository to your desired folder:
 
-[`shaaibu7/LearderBoard-App`](https://github.com/shaaibu7/LeaderBoard-App)
+[`shaaibu7/LearderBoard-App`](https://github.com/shaaibu7/Leaderboard-web-app)
 
 ### Install
 

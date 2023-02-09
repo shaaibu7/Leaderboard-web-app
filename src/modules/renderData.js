@@ -8,7 +8,7 @@ const serveUsers = async () => {
     tableContainer.innerHTML += `<tr>
       <td>${element.user}</td>
       <td>${element.score}</td>
-      </tr><br>`;
+      </tr>`;
   });
 };
 

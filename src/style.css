@@ -1,6 +1,10 @@
+body {
+  background-color: bisque;
+}
+
 .main-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
@@ -18,26 +22,38 @@ h1 {
   margin-left: 90px;
 }
 
-li {
-  list-style-type: none;
-}
-
-ul {
-  border: 2px solid black;
-  width: 100%;
-  padding-left: 3px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
-ul :nth-child(even) {
-  background-color: lightgrey;
-}
-
 table {
   border: 2px solid black;
+  border-radius: 8px;
+  width: 200%;
+  overflow-y: scroll;
+  height: 20px;
 }
 
 tr:nth-child(even) {
-  background-color: lightblue;
+  background-color: red;
+}
+
+tr:hover {
+  background-color: black;
+  color: white;
+}
+
+td {
+  padding: 2px;
+}
+
+p {
+  font-weight: bolder;
+  font-size: larger;
+}
+
+th {
+  background-color: black;
+  color: white;
+}
+
+.alert {
+  background-color: red;
+  border-radius: 5px;
 }
